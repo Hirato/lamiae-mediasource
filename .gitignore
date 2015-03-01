@@ -1,9 +1,3 @@
-# ignore compiled objects
-*.o
-*.gch
-*.pch
-*.a
-
 # and backups
 *.orig
 *.rej
@@ -13,9 +7,6 @@
 # and temporaries
 *.kate-swp
 
-# and generated files
-src/windows/lamiae.depend
-
 # and some misc text formats
 *.diff
 *.patch
@@ -24,16 +15,6 @@ src/windows/lamiae.depend
 *.dbg
 *.bin
 *.exe
-/src/tessfont
-
-# extra
-/wiki/
-/lilim/
-/mediasource/
-
-# Coverity
-/src/cov-int/
-*.tmp_cov
 
 # archives
 *.zip

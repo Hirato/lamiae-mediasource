@@ -1,0 +1,44 @@
+# ignore compiled objects
+*.o
+*.gch
+*.pch
+*.a
+
+# and backups
+*.orig
+*.rej
+*.bak
+*~
+
+# and temporaries
+*.kate-swp
+
+# and generated files
+src/windows/lamiae.depend
+
+# and some misc text formats
+*.diff
+*.patch
+
+# and binaries
+*.dbg
+*.bin
+*.exe
+/src/tessfont
+
+# extra
+/wiki/
+/lilim/
+/mediasource/
+
+# Coverity
+/src/cov-int/
+*.tmp_cov
+
+# archives
+*.zip
+*.rar
+*.tar
+*.tar.*
+*.tgz
+*.xz
